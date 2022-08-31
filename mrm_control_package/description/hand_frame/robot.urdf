@@ -1,0 +1,47 @@
+<robot name="onshape">
+<link name="mrm_link_6">
+<visual>
+<origin xyz="0.00593451 0.0146058 -0.00987494" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///mrm_link_6.stl"/>
+</geometry>
+<material name="mrm_link_6_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00593451 0.0146058 -0.00987494" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///mrm_link_6.stl"/>
+</geometry>
+<material name="mrm_link_6_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00593451 0.00960584 0.0101251" rpy="-1.5708 1.53187 -1.42353e-16" />
+<geometry>
+<mesh filename="package:///thumb_base.stl"/>
+</geometry>
+<material name="thumb_base_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00593451 0.00960584 0.0101251" rpy="-1.5708 1.53187 -1.42353e-16" />
+<geometry>
+<mesh filename="package:///thumb_base.stl"/>
+</geometry>
+<material name="thumb_base_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0.0119334 0.011202 0.00627638" rpy="0 0 0"/>
+<mass value="0.142592" />
+<inertia ixx="0.000113684" ixy="-1.85299e-05"  ixz="-2.45553e-06" iyy="5.07424e-05" iyz="-1.23263e-06" izz="0.000126046" />
+</inertial>
+</link>
+
+
+</robot>

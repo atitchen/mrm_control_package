@@ -3,12 +3,11 @@
 <package format="3">
   <name>mrm_control_package</name>
   <version>0.0.0</version>
-  <description>Package description</description>
-  <maintainer email="alex.titchen@gmail.com">alext</maintainer>
-  <license>License declaration</license>
+  <description>TODO: Package description</description>
+  <maintainer email="alex.titchen@gmail.com">Alex</maintainer>
+  <license>TODO: License declaration</license>
 
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
